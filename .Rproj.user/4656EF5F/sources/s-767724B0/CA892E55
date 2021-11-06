@@ -1,14 +1,14 @@
 {
-    "id": "F4A01414",
-    "path": "/Applications/Documents/GIT for real /Lecture Repos /Interactivity_MakingWebsites_Index.RMD/kianakchanmph.github.io/About.rmd",
-    "project_path": "About.rmd",
+    "id": "CA892E55",
+    "path": "/Applications/Documents/GIT for real /Lecture Repos /Interactivity_MakingWebsites_Index.RMD/kianakchanmph.github.io/index.rmd",
+    "project_path": "index.rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "4222962883",
     "contents": "",
     "dirty": false,
-    "created": 1636200791910.0,
+    "created": 1636203872199.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 5,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1636201329,
+    "lastKnownWriteTime": 1636204061,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1636201329102,
+    "last_content_update": 1636204061683,
     "read_only": false,
     "read_only_alternatives": []
 }
