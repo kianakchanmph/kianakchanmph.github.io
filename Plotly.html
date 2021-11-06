@@ -11,7 +11,7 @@
 
 
 
-<title>Kiana K Chan, Master of Public Health (MPH) Candidate at Columbia University</title>
+<title>Plotly Examples</title>
 
 <script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -33,6 +33,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
@@ -220,6 +221,9 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
 
 
 
@@ -344,42 +348,46 @@ div.tocify {
 
 <div id="header">
 
-
-
-<h1 class="title toc-ignore">Kiana K Chan, Master of Public Health (MPH) Candidate at Columbia University</h1>
-
-</div>
-
-
-<div id="welcome-to-kiana-chans-website" class="section level1">
-<h1>Welcome to Kiana Chan’s Website!</h1>
-<ul>
-<li><a href="https://www.linkedin.com/in/kianakchan/">LinkedIn</a></li>
-</ul>
-<div id="heres-a-subsection" class="section level2">
-<h2>Here’s a subsection</h2>
-<p>And here’s some additional text…</p>
-<pre class="r"><code>rnorm(10)</code></pre>
-<pre><code>##  [1]  0.04920597 -0.77714884 -0.13704706  0.44016829  1.94534818  0.88646208
-##  [7] -0.87386951 -0.17200632  1.46398714 -0.64793601</code></pre>
-</div>
-<div id="links-to-other-websites" class="section level2">
-<h2>Links to other websites</h2>
-<p>Let’s link useful tools for data science:</p>
-<ul>
-<li><a href="https://google.com/">Google</a></li>
-<li><a href="https://www.p8105.com/">P8105</a></li>
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
 </ul>
 </div>
-<div id="local-image" class="section level2">
-<h2>Local image</h2>
-<p><img src="images/kiki_photo.jpg" /></p>
-<p>Image of Kiana Chan</p>
+
+
+
+<h1 class="title toc-ignore">Plotly Examples</h1>
+
 </div>
-<div id="link-to-page-within-the-site" class="section level2">
-<h2>Link to page within the site</h2>
-<p><a href="About.html">About me</a></p>
-</div>
+
+
+<div id="examples-of-plotly" class="section level1">
+<h1>Examples of plotly</h1>
+<p>Instacart</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.3.5     ✓ purrr   0.3.4
+## ✓ tibble  3.1.4     ✓ dplyr   1.0.7
+## ✓ tidyr   1.1.3     ✓ stringr 1.4.0
+## ✓ readr   2.0.1     ✓ forcats 0.5.1</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(p8105.datasets)
+library(plotly)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;plotly&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     last_plot</code></pre>
+<pre><code>## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter</code></pre>
+<pre><code>## The following object is masked from &#39;package:graphics&#39;:
+## 
+##     layout</code></pre>
 </div>
 
 
@@ -417,6 +425,11 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 <script>
 $(document).ready(function ()  {

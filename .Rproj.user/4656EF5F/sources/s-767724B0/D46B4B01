@@ -1,9 +1,9 @@
 {
     "id": "D46B4B01",
-    "path": "/Applications/Documents/GIT for real /Lecture Repos /Interactivity_MakingWebsites_Index.RMD/kianakchanmph.github.io/Interactivity_MakingWebsites.rmd",
-    "project_path": "Interactivity_MakingWebsites.rmd",
+    "path": "/Applications/Documents/GIT for real /Lecture Repos /Interactivity_MakingWebsites_Index.RMD/kianakchanmph.github.io/Plotly.rmd",
+    "project_path": "Plotly.rmd",
     "type": "r_markdown",
-    "hash": "3609183793",
+    "hash": "460804825",
     "contents": "",
     "dirty": false,
     "created": 1636203240911.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "18,0",
+        "cursorPosition": "21,17",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1636225019,
+    "lastKnownWriteTime": 1636229829,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1636225019644,
+    "last_content_update": 1636229829225,
     "read_only": false,
     "read_only_alternatives": []
 }
