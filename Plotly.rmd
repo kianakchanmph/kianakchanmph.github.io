@@ -13,12 +13,28 @@ output:
 Instacart 
 
 ```{r}
+library(flexdashboard)
+library(knitr)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+data("instacart")
 ```
 
 ```{r}
-data("instacart")
+instacart = instacart %>% 
+  mutate(product_name = as.logical(product_name),
+         order_hour_of_day = as.logical(order_hour_of_day),
+         days_since_prior_order = as.logical(days_since_prior_order)) %>% 
+  filter(product_name, order_hour_of_day, days_since_prior_order) %>% 
 ```
+
+```{r}
+instacart_data = instacart %>% 
+  plot_ly(
+    x = ~product_name, y = ~days_since_prior_order, type = "scatter", mode = "markers",
+    text = ~text_label, alpha = 0.5)
+```
+
+
 

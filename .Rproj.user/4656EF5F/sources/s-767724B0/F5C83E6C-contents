@@ -9,7 +9,8 @@ navbar:
       href: mailto:kianakchan@gmail.com
     - icon: fa-github fa-lg
       href: http://github.com/kianakchanmph/
-      
+    - text: "Dashboard"
+      href: Dashboard.html
 output:
   html_document:
 
