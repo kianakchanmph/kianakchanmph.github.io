@@ -4,7 +4,7 @@ navbar:
   title: "Home"
   right:
     - text: "About"
-      href: https://kianakchanmph.github.io/About.html
+      href: https://kianakchanmph.github.io/About.html/
     - icon: fa-envelope fa-lg
       href: mailto:kianakchan@gmail.com
     - icon: fa-github fa-lg
