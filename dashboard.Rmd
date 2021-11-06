@@ -4,6 +4,7 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    code_folding: hide
     theme: flatly
 ---
 
@@ -20,8 +21,57 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
+library(tidyverse)
+library(httr)
+library(jsonlite)
 
+get_all_inspections = function(url) {
+  
+  all_inspections = vector("list", length = 0)
+  
+  loop_index = 1
+  chunk_size = 50000
+  DO_NEXT = TRUE
+  
+  while (DO_NEXT) {
+    message("Getting data, page ", loop_index)
+    
+    all_inspections[[loop_index]] = 
+      GET(url,
+          query = list(`$order` = "zipcode",
+                       `$limit` = chunk_size,
+                       `$offset` = as.integer((loop_index - 1) * chunk_size)
+                       )
+          ) %>%
+      content("text") %>%
+      fromJSON() %>%
+      as_tibble()
+    
+    DO_NEXT = dim(all_inspections[[loop_index]])[1] == chunk_size
+    loop_index = loop_index + 1
+  }
+  
+  all_inspections
+  
+}
+
+url = "https://data.cityofnewyork.us/resource/43nn-pn8j.json"
+
+nyc_inspections = 
+  get_all_inspections(url) %>%
+  bind_rows() 
 ```
+s
+```{r}
+nyc_inspections %>% 
+  plot_ly(
+    x = ~boro, y = ~score, type = "bar", mode = "markers", color = "viridis") %>% 
+  layout(
+      title = "NYC Inspection Score by Borough", 
+      xaxis = list(title = "Borough", categoryorder = "array", yaxis = list(title = "NYC Inspection Score"))
+  )
+```
+
 
 Column {data-width=350}
 -----------------------------------------------------------------------
@@ -29,7 +79,13 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
+nyc_inspections %>% 
+  plot_ly(
+    x = ~boro, y = ~score, type = "box", color = "viridis") %>% 
+  layout(
+      title = "NYC Inspection Score by Borough", 
+      xaxis = list(title = "Borough", categoryorder = "array", yaxis = list(title = "NYC Inspection Score"))
+  )
 ```
 
 ### Chart C

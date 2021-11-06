@@ -3,7 +3,7 @@
     "path": "/Applications/Documents/GIT for real /Lecture Repos /Interactivity_MakingWebsites_Index.RMD/kianakchanmph.github.io/dashboard.Rmd",
     "project_path": "dashboard.Rmd",
     "type": "r_markdown",
-    "hash": "735834966",
+    "hash": "1850667412",
     "contents": "",
     "dirty": false,
     "created": 1636232935802.0,
@@ -13,15 +13,16 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "6,17",
-        "scrollLine": "0"
+        "cursorPosition": "81,20",
+        "scrollLine": "74",
+        "last_setup_crc32": "767724B0437b2709"
     },
     "folds": "",
-    "lastKnownWriteTime": 1636233066,
+    "lastKnownWriteTime": 1636236417,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1636233067001,
+    "last_content_update": 1636236417737,
     "read_only": false,
     "read_only_alternatives": []
 }

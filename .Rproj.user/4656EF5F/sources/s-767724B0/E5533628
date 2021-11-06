@@ -1,0 +1,28 @@
+{
+    "id": "E5533628",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1636233436411.0,
+    "source_on_save": false,
+    "relative_order": 10,
+    "properties": {
+        "id": "05f924e1c61948a2984060243d5a5e38",
+        "name": "instacart",
+        "title": "instacart",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 4501200486,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636233436411,
+    "read_only": false,
+    "read_only_alternatives": []
+}

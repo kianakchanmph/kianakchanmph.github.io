@@ -1,0 +1,47 @@
+"0","nyc_inspections %>% "
+"0","  plot_ly("
+"0","    x = ~boro, y = ~score, type = ""bar"", mode = ""markers"", color = ""viridis"") %>% "
+"0","  layout("
+"0","      title = ""NYC Inspection Score by Borough"", "
+"0","      xaxis = list(title = ""Borough"", categoryorder = ""array"", yaxis = list(title = ""NYC Inspection Score""))"
+"0","  )"
+"2","Warning:"
+"2"," Ignoring 17956 observations
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning:"
+"2"," 'bar' objects don't have these attributes: 'mode'
+Valid attributes include:
+'_deprecated', 'alignmentgroup', 'base', 'basesrc', 'cliponaxis', 'constraintext', 'customdata', 'customdatasrc', 'dx', 'dy', 'error_x', 'error_y', 'hoverinfo', 'hoverinfosrc', 'hoverlabel', 'hovertemplate', 'hovertemplatesrc', 'hovertext', 'hovertextsrc', 'ids', 'idssrc', 'insidetextanchor', 'insidetextfont', 'legendgroup', 'legendgrouptitle', 'legendrank', 'marker', 'meta', 'metasrc', 'name', 'offset', 'offsetgroup', 'offsetsrc', 'opacity', 'orientation', 'outsidetextfont', 'selected', 'selectedpoints', 'showlegend', 'stream', 'text', 'textangle', 'textfont', 'textposition', 'textpositionsrc', 'textsrc', 'texttemplate', 'texttemplatesrc', 'transforms', 'type', 'uid', 'uirevision', 'unselected', 'visible', 'width', 'widthsrc', 'x', 'x0', 'xaxis', 'xcalendar', 'xhoverformat', 'xperiod', 'xperiod0', 'xperiodalignment', 'xsrc', 'y', 'y0', 'yaxis', 'ycalendar', 'yhoverformat', 'yperiod', 'yperiod0', 'yperiodalignm [... truncated]
+"
+"2","Warning:"
+"2"," Ignoring 17956 observations
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning:"
+"2"," 'bar' objects don't have these attributes: 'mode'
+Valid attributes include:
+'_deprecated', 'alignmentgroup', 'base', 'basesrc', 'cliponaxis', 'constraintext', 'customdata', 'customdatasrc', 'dx', 'dy', 'error_x', 'error_y', 'hoverinfo', 'hoverinfosrc', 'hoverlabel', 'hovertemplate', 'hovertemplatesrc', 'hovertext', 'hovertextsrc', 'ids', 'idssrc', 'insidetextanchor', 'insidetextfont', 'legendgroup', 'legendgrouptitle', 'legendrank', 'marker', 'meta', 'metasrc', 'name', 'offset', 'offsetgroup', 'offsetsrc', 'opacity', 'orientation', 'outsidetextfont', 'selected', 'selectedpoints', 'showlegend', 'stream', 'text', 'textangle', 'textfont', 'textposition', 'textpositionsrc', 'textsrc', 'texttemplate', 'texttemplatesrc', 'transforms', 'type', 'uid', 'uirevision', 'unselected', 'visible', 'width', 'widthsrc', 'x', 'x0', 'xaxis', 'xcalendar', 'xhoverformat', 'xperiod', 'xperiod0', 'xperiodalignment', 'xsrc', 'y', 'y0', 'yaxis', 'ycalendar', 'yhoverformat', 'yperiod', 'yperiod0', 'yperiodalignm [... truncated]
+"

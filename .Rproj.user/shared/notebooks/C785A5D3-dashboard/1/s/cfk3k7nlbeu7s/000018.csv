@@ -1,0 +1,37 @@
+"0","nyc_inspections %>% "
+"0","  plot_ly("
+"0","    x = ~boro, y = ~score, type = ""box"", color = ""viridis"") %>% "
+"0","  layout("
+"0","      title = ""NYC Inspection Score by Borough"", "
+"0","      xaxis = list(title = ""Borough"", categoryorder = ""array"", yaxis = list(title = ""NYC Inspection Score""))"
+"0","  )"
+"2","Warning:"
+"2"," Ignoring 17956 observations
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning:"
+"2"," Ignoring 17956 observations
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
