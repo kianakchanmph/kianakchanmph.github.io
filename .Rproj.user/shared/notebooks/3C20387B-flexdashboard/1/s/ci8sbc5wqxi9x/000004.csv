@@ -1,0 +1,41 @@
+"0","nyc_inspections %>% "
+"0","  plot_ly("
+"0","    x = ~boro, y = ~score, type = ""scatter"", color = ""viridis"")"
+"2","No scatter mode specifed:
+  Setting the mode to markers
+  Read more about this attribute -> https://plotly.com/r/reference/#scatter-mode
+"
+"2","Warning:"
+"2"," Ignoring 17956 observations
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","No scatter mode specifed:
+  Setting the mode to markers
+  Read more about this attribute -> https://plotly.com/r/reference/#scatter-mode
+"
+"2","Warning:"
+"2"," Ignoring 17956 observations
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"
+"2","Warning in RColorBrewer::brewer.pal(N, ""Set2"") :"
+"2","
+ "
+"2"," minimal value for n is 3, returning requested palette with 3 different levels
+
+"

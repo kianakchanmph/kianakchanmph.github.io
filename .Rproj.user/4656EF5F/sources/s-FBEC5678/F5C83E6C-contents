@@ -1,0 +1,16 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: http://About.html/
+    - icon: fa-envelope fa-lg
+      href: mailto:kianakchan@gmail.com
+    - icon: fa-github fa-lg
+      href: http://github.com/kianakchanmph/
+    - text: "Dashboard"
+      href: http://Dashboard.html/
+output:
+  html_document:
+
