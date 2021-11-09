@@ -9,10 +9,6 @@ output:
     theme: flatly
 ---
 
-```{r}
-rmarkdown::render("dashboard_template.Rmd", output_format = "flexdashboard::flex_dashboard")
-
-```
 
 
 ```{r setup, include=FALSE}

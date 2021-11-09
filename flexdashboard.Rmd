@@ -111,7 +111,7 @@ nyc_inspections %>%
   fig.update_yaxes(categoryorder = "category ascending")
   plot_ly(
     x = ~boro, y = ~score, type = "scatter", color = "viridis") %>%
-    layout(title = "NYC Inspection Score by Borough", xaxis = list(title = "Borough", yaxis = list(title = "NYC Inspection Score"))
+    layout(title = "NYC Inspection Score by Borough", xaxis = list(title = "Borough", yaxis = list(title = "NYC Inspection Score")))
 ```
 
 
